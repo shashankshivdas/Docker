@@ -1,0 +1,177 @@
+.App-title{
+	font-size: 50px;
+}
+.float-right{
+	float: right;
+}
+.float-left{
+	float: left;
+}
+.disp-in-block{
+	display: inline-block;
+}
+.width-eq-50per{
+	width:48% !important;
+}
+a{
+	text-decoration: none !important;
+}
+header>h1 {
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+.bg-dark {
+    background-color: #e7e7e7!important;
+}
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+	margin:0px;
+	text-align:center;
+}
+.fixed-bottom>.navbar-brand{
+	width:95%;
+	margin:0px auto;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.contactMeLogo
+{    width: 85px;
+    height: 50px;
+    float: right;
+    margin-right: 100px;
+}
+.header-nav{
+	background:url('./../img/headerback.jpg') no-repeat; 
+	background-size:cover;
+}
+.header-link-bar>ul{
+	margin-right:10px;
+}
+.header-link-bar-li>a{
+	color:#303030 !important;
+}
+.header-link-bar-li>a:hover{
+	color:#FFFFFF !important;
+
+}
+.header-logo-src{
+	content:url("./../img/paceLogo.png");
+}
+.main-nav-link-div{
+	width:100%;
+	border-radius:0px;
+	padding-left:75px;
+}
+.main-div-link{
+	background-color:white;
+	display:inline-block;
+	width:20%;
+	height: auto;
+	float:right; 
+	padding:0px;
+}
+#mainDiv{
+	background-color:white;
+	display:inline-block;
+	width:80% !important;
+	border-right:1px solid #e7e7e7;
+	border-left:1px solid  #e7e7e7;
+	text-align:justify;
+	padding-left:12px;
+	padding-right:20px;
+}
+.video-div-homepage{
+	margin-bottom:80px;
+}
+video{
+	width: 100%;
+}
+
+.video-homepage-src{
+	content:url("./../img/mov_bbb.mp4");
+}
+
+.App-div {
+  margin-top:50px;
+  border-bottom:1px solid  #e7e7e7;
+}
+/********ABOUT ME PAGE*****************/
+
+
+.abt-me-img{
+	height:33%;
+	content:url("./../img/images.jpg");
+}
+.abt-me-img-two{
+	content:url("./../img/aboutMe2.png");
+}
+.abt-details-div{
+	width:100%;
+	height:auto;
+}
+.abt-details-h1{
+	color: black;
+}
+abt-details-p{
+	padding-left:40px;
+}
+.font-family-times{
+	font-family: times new roman;
+} 
+.font-size-20{
+	font-size: 20px;
+}
+.font-size-30{
+	font-size: 30px;
+}
+
+.abt-me-img-three{
+	content:url('./../img/aboutMe1.jpg');
+}
+
+/***************CONTACT ME PAGE*****************************/
+
+/*.cnct-me-logo{
+	content:url('./../img/outlookimage.png');
+	height: 20px;
+	width: 20px;
+}*/
+.cnct-me-descptn{
+	height:150px;
+}
